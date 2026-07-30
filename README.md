@@ -16,4 +16,4 @@ Repositório com projetos desenvolvidos durante meu aprendizado de Python.
 - Python 3
 
 ## 👤 Autor
-Lazaro — estudante de Python 🚀
+Lazaro — estudante de Python
