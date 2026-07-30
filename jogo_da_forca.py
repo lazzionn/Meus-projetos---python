@@ -26,7 +26,7 @@ base_palavras = [
     
     # objetos
     'bicicleta', 'cadeira', 'geladeira', 'televisao', 'microfone',
-    'mochila', 'guarda-chuva', 'calendario', 'calculadora', 'lanterna',
+    'mochila', 'guarda chuva', 'calendario', 'calculadora', 'lanterna',
     'caneta', 'lapis', 'violao', 'caderno',
     
     # natureza
@@ -65,6 +65,10 @@ def reiniciar_jogo(base_palavras):
     jogadas = 0
     palavra_secreta = random.choice(base_palavras)
     return resposta_final, r2, erros, acertos, jogadas, palavra_secreta
+    
+    
+    
+#--------------------------------Inicio do Jogo
 
 palavra_secreta = random.choice(base_palavras)
 print('-------------------------')
@@ -131,7 +135,7 @@ while resposta_final != palavra_secreta:
                 if letra in r2:
                     resposta_final += letra
                 else:
-                    resposta_final += '_ '
+                    resposta_final += ' _ '
             print(f'Palavra formada: {resposta_final}')
             if resposta_final == palavra_secreta:
                 os.system('clear')
